@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700@family=Roboto:ital,wght@0, 100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900& display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+ body{
+    background-color: black;
+    color: white;  
+}
+
+
+
+.left{
+    width: 25vw;
+    padding: 8px;
+}
+
+.right{
+    width: 75vw;
+}
+
+
+.home ul li{
+    width: 10px;
+    gap: 15px;
+    list-style: none;
+    display: flex;
+    padding-top: 14px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.logo img{
+    width: 60px;
+    margin: -10px 0px -10px;
+}
+
+
+.home ul li i{
+    font-size: 14px;
+}
+
+.heading{
+    width: 100%;
+    gap: 15px;
+    display: flex;
+    padding-top: 14px;
+    font-size: 10px;
+    align-items: center;
+}
+
+.heading h2{
+    font-size: 14px;
+    font-weight: bold;
+    opacity: 50%;
+
+}
+
+.library{
+    min-height: 75vh;
+    position: relative;
+}
+
+.heading i{
+    font-size: 18px;
+    opacity: 50%;
+}
+
+.footer{
+    display: flex;
+    font-size: 10px;
+    color: grey;
+    gap: 13px;
+    position: absolute;
+    bottom: 0;
+    padding: 10px 0;
+}
+
+.footer a{
+    color: grey;
+}
+
+.right{
+    margin: 14px 0;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(34, 34, 34);
+}
+
+.header > *{
+    padding: 15px;
+}
+
+.header .nav i{
+    opacity: 50%;
+    margin: 0 8px;
+}
+
+.beatFluxplaylists{
+    padding: 16px;
+}
+
+.cardcontainer{
+    margin: 25px;
+    display: flex;
+    gap: 11px;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    max-height: 68vh;
+}
+
+.card{
+    width: 170px;
+    padding: 9px;
+    border-radius: 5px;
+    background-color: #252525;
+    position: relative;
+}
+
+.card > *{
+    padding-top: 8px;
+}
+
+.card img{
+    width: 100%;
+    object-fit: contain;
+
+}
+
+.play .insbtn{
+    width: 28px;
+    height: 28px;
+    background-color: #00000099;
+    border-radius: 50%;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 14px;
+    position: absolute;
+    top: 168px;
+    right: 17px;
+    font-size: 15px;
+    opacity: 0;
+    transition: all 1s ease-out;
+}
+
+.buttons > *{
+    margin: 0 12px;
+}
+
+.signupbtn{
+    background-color: rgb(34, 34, 34);
+    color: rgb(104, 93, 93);
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.signupbtn:hover{
+    font-size: 16px;
+    color: white;
+}
+
+.loginbtn{
+    background-color: white;
+    border-radius: 21px;
+    color: black;
+    padding: 10px;
+    width: 79px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.loginbtn:hover{
+    font-weight: bold;
+    font-size: 16px;
+}
+
